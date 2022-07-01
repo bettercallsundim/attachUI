@@ -8,7 +8,12 @@ body {
  font-family: "Poppins";
  overflow-x: hidden;
 }
-
+.lgo{
+	margin-left: 8rem;
+}
+.nvbr{
+	margin-right: 3rem;
+}
 .header {
  min-height: 100vh;
  position: relative;
