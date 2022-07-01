@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.min.css" integrity="sha512-o/MhoRPVLExxZjCFVBsm17Pkztkzmh7Dp8k7/3JrtNCHh0AQ489kwpfA3dPSHzKDe8YCuEhxXq3Y71eb/o6amg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/js/bootstrap.bundle.min.js" integrity="sha512-ndrrR94PW3ckaAvvWrAzRi5JWjF71/Pw7TlSo6judANOFCmz0d+0YE+qIGamRRSnVzSvIyGs4BTtyFMm3MT/cg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./aos/aos.css">
+<script src="./aos/aos.js" defer></script>
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js" defer></script>
+<link rel="stylesheet" href="style.css">
+<script src="./app.js" defer></script>
+</head>
+<body>
+
+<div class="main">
+
+	<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+	<!-- --------nav bar----- -->
+	<div class="container" data-aos="fade-right">
+		<div class="header">
+			<div class="circle">
+			</div>
+
+			<div class="row head justify-content-around align-items-center gap-3 gap-md-0">
+				<div class="col-md-5 txt">
+					<h1>THIS IS A HEADING</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatem repudiandae libero itaque repellendus fugiat alias nihil non laborum iure?</p>
+          <button class="btn hbtn">Get Started</button>
+				</div>
+				<div class="col-md-5 headHero">
+					<svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="M13.5 7.5l-5.757 5.757a4.243 4.243 0 01-6-6l5.929-5.929a2.828 2.828 0 014 4l-5.758 5.758a1.414 1.414 0 01-2-2L9.5 3.5" stroke="currentColor"></path></svg>
+				</div>
+
+			</div>
+
+		</div>
+    <!-- ---------services--- -->
+    <div class="services" data-aos="fade-left">
+     <div class="container">
+      <h1>Our services</h1>
+        <div class="row servicesWrap justify-content-around">
+          <div class="col-md-3">
+            <div class="service">
+              <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15" class="svgIcon"><path d="M4.5 5.5l.4.3a.5.5 0 00-.4-.8v.5zM3 7.5l-.4-.3A.5.5 0 003 8v-.5zm9.736-4.646l.382.323-.382-.323zM2 6h2.5V5H2v1zm2.1-.8l-1.5 2 .8.6 1.5-2-.8-.6zM3 8h.5V7H3v1zm.5 1H2v1h1.5V9zm.5-.5a.5.5 0 01-.5.5v1A1.5 1.5 0 005 8.5H4zM3.5 8a.5.5 0 01.5.5h1A1.5 1.5 0 003.5 7v1zM8 5h-.5v1H8V5zM6 6.5v1h1v-1H6zm0 1v1h1v-1H6zM7.5 7h-1v1h1V7zM9 8.5A1.5 1.5 0 007.5 7v1a.5.5 0 01.5.5h1zM7.5 10A1.5 1.5 0 009 8.5H8a.5.5 0 01-.5.5v1zm0-1a.5.5 0 01-.5-.5H6A1.5 1.5 0 007.5 10V9zm0-4A1.5 1.5 0 006 6.5h1a.5.5 0 01.5-.5V5zM12 6.5v2h1v-2h-1zm-1 2v-2h-1v2h1zm.5.5a.5.5 0 01-.5-.5h-1a1.5 1.5 0 001.5 1.5V9zm.5-.5a.5.5 0 01-.5.5v1A1.5 1.5 0 0013 8.5h-1zM11.5 6a.5.5 0 01.5.5h1A1.5 1.5 0 0011.5 5v1zm0-1A1.5 1.5 0 0010 6.5h1a.5.5 0 01.5-.5V5zm-4 9A6.5 6.5 0 011 7.5H0A7.5 7.5 0 007.5 15v-1zM14 7.5A6.5 6.5 0 017.5 14v1A7.5 7.5 0 0015 7.5h-1zM7.5 0A7.5 7.5 0 000 7.5h1A6.5 6.5 0 017.5 1V0zm6 3a.5.5 0 01.5.5h1A1.5 1.5 0 0013.5 2v1zm0 1a.5.5 0 01-.5-.5h-1A1.5 1.5 0 0013.5 5V4zm-.5-.5c0-.123.044-.235.118-.323l-.763-.646c-.221.261-.355.6-.355.969h1zm.118-.323A.498.498 0 0113.5 3V2c-.46 0-.871.207-1.145.531l.763.646zM7.5 1c1.934 0 3.671.844 4.862 2.186l.748-.664A7.483 7.483 0 007.5 0v1zm5.854 3.67c.414.856.646 1.815.646 2.83h1c0-1.17-.268-2.277-.746-3.265l-.9.436zM14 3.5a.5.5 0 01-.348.477l.304.952A1.5 1.5 0 0015 3.5h-1zm-.348.477A.5.5 0 0113.5 4v1a1.5 1.5 0 00.456-.07l-.304-.953z" fill="currentColor"></path></svg>
+              <h3>WEB SECURITY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium sequi dicta doloremque tempore beatae!</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service">
+              <svg viewBox="0 0 17 17"  class="svgIcon" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="M5 12l3.5-8 3.5 8M6 9.5h5m-2.5-8l-7 2 1 9 6 3 6-3 1-9-7-2z" stroke="currentColor"></path></svg>
+              <h3>WEBSITE DEPLOY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium sequi dicta doloremque tempore beatae!</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="service">
+              <svg viewBox="0 0 15 15" fill="none" class="svgIcon"  xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="M1.5 11V6.5a2 2 0 114 0V11m-4-2.5h4m6.5-1H9.5m2.5 0a1.5 1.5 0 000-3H9.5v3m2.5 0a1.5 1.5 0 010 3H9.5v-3M7.5 1v13" stroke="currentColor"></path></svg>
+              <h3>SERVER MAINTAIN</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium sequi dicta doloremque tempore beatae!</p>
+            </div>
+          </div>
+      </div>
+     </div>
+
+    </div>
+    <!-- ---------services--- -->
+	</div>
+      <!-- -----packages -------  -->
+      <div class="packages" data-aos="flip-left">
+        <div class="container">
+         <h1 class="text-center">Our Packages</h1>
+           <div class="row packagesWrap justify-content-around">
+             <div class="col-md-6 pkg col-sm-6 col-lg-3">
+               <div class="package">
+                 <h3>FREE</h3>
+                 <ul>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                 </ul>
+                 <div>
+                  <button class="pkgBtn">ACTIVATE</button>
+                 </div>
+               </div>
+             </div>
+             <div class="col-md-6 pkg col-sm-6 col-lg-3">
+               <div class="package">
+                 <h3>COMMERCIAL</h3>
+                 <ul>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                 </ul>
+                 <div>
+                  <button class="pkgBtn">ACTIVATE</button>
+                 </div>
+               </div>
+             </div>
+             <div class="col-md-6 pkg col-sm-6 col-lg-3">
+               <div class="package">
+                 <h3>PROFESSIONAL</h3>
+                 <ul>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Lorem ipsum dolor</li>
+                 </ul>
+                 <div>
+                  <button class="pkgBtn">ACTIVATE</button>
+                 </div>
+               </div>
+             </div>
+
+         </div>
+        </div>
+
+       </div>
+      <!-- -----packages --------->
+
+      <!-- reviews--------- -->
+       <!-- Swiper -->
+    <div class="container reviewsCont">
+      <h1 class="text-center">Testimonials</h1>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto mollitia suscipit voluptatum voluptatibus, labore praesentium voluptates illo quos, consequatur, eius earum aliquid quae? Tempora minima maiores, recusandae ea laborum inventore."</p>
+              <div class="profile">
+                <div class="img">
+                  <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFufHx8fHx8MTY1NjU4Mzk2MA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="">
+                </div>
+                <div class="name">
+                  <p>John Doe</p>
+                  <p>Software Engineer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto mollitia suscipit voluptatum voluptatibus, labore praesentium voluptates illo quos, consequatur, eius earum aliquid quae? Tempora minima maiores, recusandae ea laborum inventore."</p>
+              <div class="profile">
+                <div class="img">
+                  <img src="https://images.unsplash.com/photo-1599834562135-b6fc90e642ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFufHx8fHx8MTY1NjU4Mzk4NA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="">
+                </div>
+                <div class="name">
+                  <p>None Doe</p>
+                  <p>console.log() expert</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto mollitia suscipit voluptatum voluptatibus, labore praesentium voluptates illo quos, consequatur, eius earum aliquid quae? Tempora minima maiores, recusandae ea laborum inventore."</p>
+              <div class="profile">
+                <div class="img">
+                  <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8bWFufHx8fHx8MTY1NjU4NDAwNQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="">
+                </div>
+                <div class="name">
+                  <p>Gone Doe</p>
+                  <p>Waresoft Engineer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+      <!-- reviews--------- -->
+          <!-- news start----------- -->
+    <div class="newsCont container">
+      <div class="heading">
+        <h1 class="text-center">RECENT POSTS</h1>
+      </div>
+      <div class="newsWrap">
+         <div class="news">
+           <div class="img">
+            <img src="https://images.unsplash.com/photo-1559163499-413811fb2344" alt="">
+           </div>
+           <div class="title">
+            Lorem ipsum dolor sit amet dolor sit amet dolor sit.
+           </div>
+           <div class="subtitle">
+            Lorem ipsum dolor sit amet dolor sit amet dolor sit ipsum dolor sit amet dolor sit amet dolor sit.
+           </div>
+           <div class="readMore">
+            <button class="underline">Read More</button>
+           </div>
+         </div>
+         <div class="news">
+           <div class="img">
+            <img src="https://images.unsplash.com/photo-1548092372-0d1bd40894a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8d2Vic2l0ZXx8fHx8fDE2NTY1ODUwNTg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="">
+           </div>
+           <div class="title">
+            Lorem ipsum dolor sit amet dolor sit amet dolor sit.
+           </div>
+           <div class="subtitle">
+            Lorem ipsum dolor sit amet dolor sit amet dolor sit ipsum dolor sit amet dolor sit amet dolor sit.
+           </div>
+           <div class="readMore">
+            <button class="underline">Read More</button>
+           </div>
+         </div>
+         <div class="news">
+           <div class="img">
+            <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8d2Vic2l0ZXx8fHx8fDE2NTY1ODUwNzE&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080" alt="">
+           </div>
+           <div class="title">
+            Lorem ipsum dolor sit amet dolor sit amet dolor sit.
+           </div>
+           <div class="subtitle">
+            Lorem ipsum dolor sit amet dolor sit amet dolor sit ipsum dolor sit amet dolor sit amet dolor sit.
+           </div>
+           <div class="readMore">
+            <button class="underline">Read More</button>
+           </div>
+         </div>
+      </div>
+
+    </div>
+    <!-- news end----------- -->
+
+  <!-- -----contact us--------------- -->
+
+<div class="contact">
+  <div class="container">
+    <h1 class="text-center cuh">Contact Us</h1>
+    <div class="row justify-content-around align-items-center">
+      <div class="col-md-5">
+        <h1 class="fw-bold aut">Attach</h1>
+        <p class="abtus">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos laborum fugit esse iusto corporis provident officia? Facere officiis rerum ratione laudantium labore obcaecati atque veniam accusamus quaerat, repellendus provident magni excepturi mollitia doloribus aperiam impedit incidunt dignissimos.
+        </p>
+        <p class="text-capitalize"><strong> Address:</strong> Lorem ipsum, 250 dolor,  sit amet.</p>
+        <p><strong> Phone:</strong> 0133-4298-121</p>
+        <p><strong> Email:</strong> express.business@gmail.com</p>
+      </div>
+
+      <!-- ---------------- -->
+      <div class="col-md-5">
+        <form class="d-flex flex-wrap gap-3 justify-content-between">
+          <div class="mb-3 fname">
+            <label for="fname" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="fname" >
+          </div>
+          <div class="mb-3 lname">
+            <label for="lname" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lname" >
+          </div>
+          <div class="mb-3 email flex-grow-1">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" >
+          </div>
+          <div class="mb-3 ques flex-grow-1 w-100">
+            <label for="exampleFormControlTextarea1" class="form-label">Your Question</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- -----contact us--------------- -->
+
+
+<!-- ---------------foooter----------- -->
+
+<div class="footer">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-3 col-6">
+        <h5>Links</h5>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Blogs</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-6">
+        <h5>Links</h5>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Blogs</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-6">
+        <h5>Links</h5>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Blogs</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-6">
+        <h5>Links</h5>
+        <ul class="lastfooter">
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Blogs</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ---------------foooter----------- -->
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
